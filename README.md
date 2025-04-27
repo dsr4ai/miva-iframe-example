@@ -1,4 +1,4 @@
-# Miva iframe Example
+# Miva Iframe Example
 
 This project demonstrates how to embed and communicate with a Miva iframe in a web application.
 
