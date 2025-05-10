@@ -4,22 +4,22 @@ html {
 }
 
 body {
-  display: flex;
-  height: 100dvh;
-  justify-content: center;
   margin: 0;
 }
 
-.container {
-  align-items: center;
+header {
+  height: 80px;
   display: flex;
-  flex-direction: column;
-  height: calc(100dvh - 2rem);
-  width: 80dvw;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
 }
 
 #miva {
-  border: 4px solid blue;
-  height: 100%;
-  width: 100%;
+  border: none;
+  height: calc(100dvh - 80px);
+  width: 100dvw;
 }
